@@ -7,8 +7,8 @@
   --theme-on-secondary: #000000;
   --theme-secondary--hover: #ffffff;
 
-  --theme-background: hsl(0, 0%, 5%);
-  --theme-on-background: hsl(0, 0%, 98%);
+  --theme-background: hsl(37, 100%, 93%);
+  --theme-on-background: hsl(183, 93%, 11%);
 
   --theme-surface-1: hsl(0, 0%, 92%);
   --theme-on-surface-1: hsl(0, 0%, 10%);
@@ -51,7 +51,7 @@ body {
   position: relative;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background: var(--theme-background) url('/assets/images/bg.svg') no-repeat;
+  background: var(--theme-background);
   background-size: cover;
   background-position: center;
 }
@@ -67,7 +67,7 @@ a {
 /* Typography */
 
 h1 {
-  font-size: var(--step-5);
+  font-size: var(--step-4);
   font-family: var(--font-family-heading);
   font-weight: 600;
   line-height: 1.2;

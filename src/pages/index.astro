@@ -4,8 +4,8 @@ import Container from '../components/Container.astro';
 import SignupForm from '../components/SignupForm.astro';
 
 const seo = {
-  title: 'Cannonball by Little Sticks | A splash page template',
-  description: 'This is a simple splash page template built with Astro by Little Sticks',
+  title: 'LaterGator',
+  description: 'Easily save articles, videos, podcasts and more for later consumption with LaterGator',
 }
 ---
 
@@ -23,8 +23,9 @@ const seo = {
 <Layout seo={seo}>
   <Container narrow>
     <article class="hero__article">
-      <h1 class="fade-in">Coming Soon</h1>
-      <p class="fade-in">Be the first to know when our new site is live!</p>
+      <h1 class="fade-in">Coming <s>Soon</s> Later...</h1>
+      <p class="fade-in">Save content for later with LaterGator.</p>
+      <p class="fade-in">Be the first to know when the app is live!</p>
       <SignupForm />
     </article>
   </Container>

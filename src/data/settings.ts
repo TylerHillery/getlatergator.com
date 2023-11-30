@@ -1,6 +1,6 @@
 export const settings = {
-  site: 'https://cannonball.littlesticks.dev',
-  name: 'Little Sticks',
-  title: 'Cannonball by Little Sticks | A splash page template',
-  description: 'This is a simple splash page template built with Astro by Little Sticks',
+  site: 'https://getlatergator.com',
+  name: 'Tyler Hillery',
+  title: 'LaterGator',
+  description: 'Easily save articles, videos, podcasts and more for later consumption with LaterGator',
 }
