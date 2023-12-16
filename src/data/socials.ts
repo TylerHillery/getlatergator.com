@@ -7,6 +7,6 @@ export const socials = [
   {
     title: 'GitHub',
     icon: 'mdi:github',
-    url: 'https://github.com/TylerHillery',
+    url: 'https://github.com/TylerHillery/getlatergator.com',
   }
 ]
